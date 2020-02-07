@@ -1,19 +1,61 @@
 // .flex params ( @direction, @wrap, @justify-content, @align-items )
 
-aside {
-    width: 25%;
-    height: 100%;
+
+
+body {
+
+    .flex(row, nowrap, center, stretch);
+
+    aside {
+        width: 20%;
+        height: 100%;
+        
+        // .testBorder();
+        .flex(column, nowrap, flex-start, flex-end);
     
-    .testBorder();
-    .flex(column, nowrap, flex-start, flex-end);
+        .top-left-name {
+            // .testBorder();
+            width: 100%;
+            height: 20vh;
+            .flex(column, nowrap, space-evenly, flex-end);
 
-    .top-left-name {
-        .testBorder();
-        width: 100%;
-        .flex(column, nowrap, center, flex-end);
+            .caleb {
+                margin-top: 15%;
+            }
 
+            .big-line {
+                border: 17px solid black;
+                width: 100%;
+            }
 
+        }
+
+        .contact-info {
+            margin-top: 20%;
+        }
+
+        .contact-info,.education-info,.skills-info {
+            .flex(column, nowrap, space-evenly, flex-end);
+            ul {
+                .flex(column, nowrap, space-evenly, flex-end);
+            }
+        }
     }
+    
+    .main-content {
+        // .testBorder();
+        margin-left: 3%;
+        width: 80%;
+        height: 100%;
+        .flex(column, wrap, baseline, flex-start);
+
+        
+        .white-space {
+            // .testBorder();
+            height: 27.8vh;
+        }
+    }
+    
 }
 
 

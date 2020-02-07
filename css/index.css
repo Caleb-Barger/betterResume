@@ -126,6 +126,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.name {
-  color: red;
+.testBorder {
+  border: 1px solid red;
+}
+aside {
+  width: 25%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+aside .top-left-name {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-content: center;
 }

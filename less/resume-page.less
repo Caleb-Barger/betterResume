@@ -30,15 +30,17 @@ body {
 
         }
 
-        .contact-info {
-            margin-top: 20%;
-        }
-
         .contact-info,.education-info,.skills-info {
             .flex(column, nowrap, space-evenly, flex-end);
             ul {
                 .flex(column, nowrap, space-evenly, flex-end);
             }
+            h2 {
+                margin-top: 10%;
+            }
+        }
+        .contact-info {
+            margin-top: 20%;
         }
     }
     
@@ -48,6 +50,14 @@ body {
         width: 80%;
         height: 100%;
         .flex(column, wrap, baseline, flex-start);
+
+        .black-bar-header {
+            background-color: black;
+            color: white;
+            margin-top: 4%;
+            margin-bottom: 4%;
+            letter-spacing: .5rem;
+        }
 
         
         .white-space {

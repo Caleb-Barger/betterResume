@@ -145,7 +145,7 @@ h1 {
 h2 {
   font-size: 2rem;
 }
-h2,
+aside h2,
 li {
   line-height: 3rem;
 }
@@ -181,9 +181,6 @@ body aside .top-left-name .big-line {
   border: 17px solid black;
   width: 100%;
 }
-body aside .contact-info {
-  margin-top: 20%;
-}
 body aside .contact-info,
 body aside .education-info,
 body aside .skills-info {
@@ -200,6 +197,14 @@ body aside .skills-info ul {
   align-items: flex-end;
   justify-content: space-evenly;
 }
+body aside .contact-info h2,
+body aside .education-info h2,
+body aside .skills-info h2 {
+  margin-top: 10%;
+}
+body aside .contact-info {
+  margin-top: 20%;
+}
 body .main-content {
   margin-left: 3%;
   width: 80%;
@@ -208,6 +213,13 @@ body .main-content {
   flex-flow: column wrap;
   align-items: flex-start;
   justify-content: baseline;
+}
+body .main-content .black-bar-header {
+  background-color: black;
+  color: white;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  letter-spacing: 0.5rem;
 }
 body .main-content .white-space {
   height: 27.8vh;

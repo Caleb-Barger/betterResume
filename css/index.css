@@ -224,3 +224,7 @@ body .main-content .black-bar-header {
 body .main-content .white-space {
   height: 27.8vh;
 }
+a {
+ text-decoration: none;
+ color: black; 
+}
